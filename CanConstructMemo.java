@@ -28,26 +28,4 @@ public class CanConstructMemo {
         memo.put(target, false);
         return false;
     }
-
-
-    public static boolean Canconstruct(String target,List<String> wordBank){
-        return canConstruct(target,wordBank,new HashMap<>());
-        
-    }
-    private static boolean Canconstruct(String target , String []wordBank,HashMap<String,Boolean>memo){
-        if (memo.containsKey(target)) return memo.get(target);
-        if (target.isEmpty()) return true;
-
-        for(String word : wordBank){
-            if(target.startsWith(word)){
-                String suffix = target.substring(word.length());
-                if(Canconstruct(suffix,wordBank,memo)){
-                    memo.put(target,true);
-                    return true;
-                }
-            }
-        }
-        return false;
-
-    }
 }
