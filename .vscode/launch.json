@@ -1,0 +1,119 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Allconstruct",
+            "request": "launch",
+            "mainClass": "Allconstruct",
+            "projectName": "DP_3d954c5"
+        },
+        {
+            "type": "java",
+            "name": "Allconstructmemo",
+            "request": "launch",
+            "mainClass": "Allconstructmemo",
+            "projectName": "DP_3d954c5"
+        },
+        {
+            "type": "java",
+            "name": "BestSum",
+            "request": "launch",
+            "mainClass": "BestSum",
+            "projectName": "DP_3d954c5"
+        },
+        {
+            "type": "java",
+            "name": "BestsumTab",
+            "request": "launch",
+            "mainClass": "BestsumTab",
+            "projectName": "DP_3d954c5"
+        },
+        {
+            "type": "java",
+            "name": "CanConstructMemo",
+            "request": "launch",
+            "mainClass": "CanConstructMemo",
+            "projectName": "DP_3d954c5"
+        },
+        {
+            "type": "java",
+            "name": "CanSum",
+            "request": "launch",
+            "mainClass": "CanSum",
+            "projectName": "DP_3d954c5"
+        },
+        {
+            "type": "java",
+            "name": "Canconstruct",
+            "request": "launch",
+            "mainClass": "Canconstruct",
+            "projectName": "DP_3d954c5"
+        },
+        {
+            "type": "java",
+            "name": "CanconstructTab",
+            "request": "launch",
+            "mainClass": "CanconstructTab",
+            "projectName": "DP_3d954c5"
+        },
+        {
+            "type": "java",
+            "name": "Countconstruct",
+            "request": "launch",
+            "mainClass": "Countconstruct",
+            "projectName": "DP_3d954c5"
+        },
+        {
+            "type": "java",
+            "name": "Countconstructmemo",
+            "request": "launch",
+            "mainClass": "Countconstructmemo",
+            "projectName": "DP_3d954c5"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "DP_3d954c5"
+        },
+        {
+            "type": "java",
+            "name": "GridTraveller",
+            "request": "launch",
+            "mainClass": "GridTraveller",
+            "projectName": "DP_3d954c5"
+        },
+        {
+            "type": "java",
+            "name": "HowSum",
+            "request": "launch",
+            "mainClass": "HowSum",
+            "projectName": "DP_3d954c5"
+        },
+        {
+            "type": "java",
+            "name": "HowSumTab",
+            "request": "launch",
+            "mainClass": "HowSumTab",
+            "projectName": "DP_3d954c5"
+        },
+        {
+            "type": "java",
+            "name": "best",
+            "request": "launch",
+            "mainClass": "best",
+            "projectName": "DP_3d954c5"
+        }
+    ]
+}
