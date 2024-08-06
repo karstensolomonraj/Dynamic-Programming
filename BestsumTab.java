@@ -21,7 +21,7 @@ public class BestsumTab {
    }
 
     public static void main(String[] args) {
-        System.out.println(bestSum(7,new int[]{5,3,4,7}));
+        System.out.println(bestSum(12,new int[]{5,3,4,7}));
         System.out.println(bestSum(8,new int[]{5,3,4,7}));
         System.out.println(bestSum(1,new int[]{3}));
     }
