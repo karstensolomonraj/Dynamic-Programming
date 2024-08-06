@@ -1,6 +1,7 @@
 public class CanSum {
     public static boolean canSum(int targetSum,int[] numbers){
         boolean table[] = new boolean[targetSum+1];
+        table[0] = true;
         for(int i =0 ;i<=targetSum;i++){
             if(table[i]){
                 for(int num : numbers){
@@ -15,9 +16,9 @@ public class CanSum {
     }
     
     public static void main(String[] args) {
-        System.out.println(canSum(7,new int[]{5,3,4,7}));
+        System.out.println(canSum(7,new int[]{5,3,4}));
         System.out.println(canSum(8,new int[]{5,3,4,7}));
-        System.out.println(canSum(1003,new int[]{3}));
+        System.out.println(canSum(1,new int[]{3}));
     }
     }
 
